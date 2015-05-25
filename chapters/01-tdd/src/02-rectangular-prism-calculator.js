@@ -1,0 +1,4 @@
+var rectangularPrismCalculator = (function() {
+    return {
+    };
+})();
