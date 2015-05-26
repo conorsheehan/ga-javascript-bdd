@@ -1,5 +1,5 @@
-xdescribe('Cube Calculator', function() {
-    it('calculates the surface area of a 10m cube', function() {
+describe('Cube Calculator', function() {
+    xit('calculates the surface area of a 10m cube', function() {
         var sideLength = 10;
         var surfaceArea = 600;
         expect(

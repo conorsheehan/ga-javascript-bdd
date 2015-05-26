@@ -1,0 +1,25 @@
+{
+  "name": "ga-javascript-bdd",
+  "version": "0.0.0",
+  "description": "Learn JavaScript testing and Behavior-Driven Development. This repo stands alongside a class at General Assembly in Boston",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/conorsheehan/ga-javascript-bdd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/conorsheehan/ga-javascript-bdd/issues"
+  },
+  "homepage": "https://github.com/conorsheehan/ga-javascript-bdd",
+  "devDependencies": {
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.12.32",
+    "karma-chrome-launcher": "^0.1.12",
+    "karma-jasmine": "^0.3.5"
+  }
+}
