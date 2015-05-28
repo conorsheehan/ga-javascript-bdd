@@ -1,12 +1,13 @@
 var simpleApp = (function() {
     var foo;
     var bar;
-    var localVarNames = ['foo', 'bar'];
+    var localVarNames;
 
     return {
         initialize: function() {
             foo = null;
             bar = null;
+            localVarNames = ['foo', 'bar'];
             return this;
         },
 
@@ -26,6 +27,10 @@ var simpleApp = (function() {
 
         getBar: function() {
             return bar;
+        },
+
+        getFooBar: function() {
+            return foo + bar;
         },
 
         getLocalVarNames: function() {

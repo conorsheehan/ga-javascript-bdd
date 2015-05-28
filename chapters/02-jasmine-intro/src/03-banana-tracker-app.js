@@ -1,4 +1,4 @@
-var simpleApp = (function() {
+var bananaTracker = (function() {
 
     return {
         initialize: function() {},
