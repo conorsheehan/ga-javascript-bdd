@@ -9,7 +9,7 @@ describe('A suite', function() {
 
 
 
-describe('A suite', function() {
+xdescribe('A suite', function() {
 
     var isHotOut = true;
 

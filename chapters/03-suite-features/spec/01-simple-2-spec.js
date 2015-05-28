@@ -42,7 +42,7 @@ xdescribe('Simple App', function() {
 
 
 
-describe('Simple App', function() {
+xdescribe('Simple App', function() {
     var app = simpleApp;
 
     beforeEach(function() {
