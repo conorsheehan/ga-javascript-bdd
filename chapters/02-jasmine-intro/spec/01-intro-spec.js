@@ -26,8 +26,27 @@ describe('A suite', function() {
 
 
 
-    it('can also check for negatives', function() {
+    it('can check for negatives', function() {
         isHotOut = false;
         expect(isHotOut).not.toBe(true);
+    });
+
+
+
+    it('can compare objects', function() {
+        var foo = {
+            a: 15,
+            b: 20
+        };
+        var bar = {
+            a: 15,
+            b: 20
+        }
+        var baz = {
+            a: 20,
+            b: 15
+        }
+        expect(foo).toEqual(bar);
+        expect(foo).not.toEqual(baz);
     });
 });
