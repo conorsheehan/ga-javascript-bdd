@@ -1,4 +1,4 @@
-xdescribe('Chat Bot', function() {
+describe('Chat Bot', function() {
 
     it('connects to the chat system when it loads', function() {
         spyOn(chatbot.chatSystem, 'connect');
@@ -20,7 +20,7 @@ xdescribe('Chat Bot', function() {
 
 
 
-        xit('can create a new office request using "/new request"', function() {
+        it('can create a new office request using "/new request"', function() {
             var incomingMessage = "/new request: paper";
 
             spyOn(chatbot.requestPersistence, 'create');
