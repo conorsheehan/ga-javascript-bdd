@@ -1,4 +1,4 @@
-describe('Chat Bot', function() {
+xdescribe('Chat Bot', function() {
 
     it('connects to the chat system when it loads', function() {
         spyOn(chatbot.chatSystem, 'connect');

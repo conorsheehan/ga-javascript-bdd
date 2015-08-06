@@ -1,4 +1,4 @@
-describe('Chat Bot (GWT)', function() {
+xdescribe('Chat Bot (GWT)', function() {
 
     describe('given the user is chatting with the chat bot, when the user sends "/new request: paper"', function() {
         var incomingMessage;

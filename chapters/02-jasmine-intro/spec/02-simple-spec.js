@@ -1,6 +1,6 @@
-xdescribe('Simple App', function() {
+describe('Simple App', function() {
 
-    it('can assign a value for foo', function() {
+    xit('can assign a value for foo', function() {
         var value = 5;
 
         simpleApp.initialize();
@@ -13,7 +13,7 @@ xdescribe('Simple App', function() {
 
 
 
-    it('initializes foo without a value', function() {
+    xit('initializes foo without a value', function() {
         simpleApp.initialize();
 
         expect(
@@ -23,7 +23,7 @@ xdescribe('Simple App', function() {
 
 
 
-    it('holds separate values for foo and bar', function() {
+    xit('holds separate values for foo and bar', function() {
         var foo = 10;
         var bar = 20;
 
@@ -40,7 +40,7 @@ xdescribe('Simple App', function() {
 
 
 
-    it('knows if foo is positive', function() {
+    xit('knows if foo is positive', function() {
         var foo = 10;
 
         simpleApp.initialize();
@@ -53,7 +53,7 @@ xdescribe('Simple App', function() {
 
 
 
-    it('knows if foo is not positive', function() {
+    xit('knows if foo is not positive', function() {
         var foo = -10;
 
         simpleApp.initialize();
@@ -66,7 +66,7 @@ xdescribe('Simple App', function() {
 
 
 
-    it('can get the square root of foo', function() {
+    xit('can get the square root of foo', function() {
         var foo = 33;
         var expectedOutput = 5.74;
         var output;
@@ -82,7 +82,7 @@ xdescribe('Simple App', function() {
 
 
 
-    it('can modify foo and bar', function() {
+    xit('can modify foo and bar', function() {
         simpleApp.initialize();
         simpleApp.setFoo(10);
         simpleApp.setBar(15);
@@ -104,7 +104,7 @@ xdescribe('Simple App', function() {
 
 
 
-    it('knows its local variable names', function() {
+    xit('knows its local variable names', function() {
         var varNames;
         simpleApp.initialize();
 
