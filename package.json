@@ -4,7 +4,7 @@
   "description": "Learn JavaScript testing and Behavior-Driven Development. This repo stands alongside a class at General Assembly in Boston",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "./node_modules/karma/bin/karma start my.conf.js"
   },
   "repository": {
     "type": "git",
