@@ -49,4 +49,24 @@ xdescribe('A suite', function() {
         expect(foo).toEqual(bar);
         expect(foo).not.toEqual(baz);
     });
+
+
+
+    it('can compare numbers', function() {
+        var numberOfHats = 5;
+        var numberOfPeople = 3;
+        expect(numberOfHats).toBeGreaterThan(numberOfPeople);
+    });
+
+
+
+    it('can handle arrays', function() {
+        var people = [
+            'Conor',
+            'Melissa',
+            'Jen'
+        ];
+        var numberOfPeople = 3;
+        expect(people.length).toEqual(numberOfPeople);
+    });
 });
