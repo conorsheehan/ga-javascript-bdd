@@ -1,4 +1,4 @@
-xdescribe('Cube Calculator', function() {
+describe('Cube Calculator', function() {
     it('calculates the surface area of a 10m cube', function() {
         var sideLength = 10;
         var surfaceArea = 600;
@@ -7,7 +7,7 @@ xdescribe('Cube Calculator', function() {
         ).toEqual(surfaceArea);
     });
 
-    it('calculates the surface area of a 3m cube', function() {
+    xit('calculates the surface area of a 3m cube', function() {
         var sideLength = 3;
         var surfaceArea = 54;
         expect(
@@ -15,7 +15,7 @@ xdescribe('Cube Calculator', function() {
         ).toEqual(surfaceArea);
     });
 
-    it('calculates the surface area of a 3m cube with a missing side', function() {
+    xit('calculates the surface area of a 3m cube with a missing side', function() {
         var sideLength = 3;
         var numberOfSides = 5;
         var surfaceArea = 45;

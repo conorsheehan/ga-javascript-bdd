@@ -1,4 +1,4 @@
-describe('A suite', function() {
+xdescribe('A suite', function() {
 
     it('validates truthiness', function() {
         expect(true).toBe(true);
