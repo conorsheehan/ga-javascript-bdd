@@ -18,6 +18,7 @@
   "homepage": "https://github.com/conorsheehan/ga-javascript-bdd",
   "devDependencies": {
     "jasmine-core": "^2.3.4",
+    "jquery": "^2.1.4",
     "karma": "^0.12.32",
     "karma-chrome-launcher": "^0.1.12",
     "karma-coverage": "^0.3.1",
