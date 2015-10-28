@@ -7,8 +7,6 @@ xdescribe('A suite', function() {
 
 
 
-
-
 xdescribe('A suite', function() {
 
     var isHotOut = true;
@@ -20,8 +18,8 @@ xdescribe('A suite', function() {
 
 
     it('can have multiple specs', function() {
-        var city = "Boston"
-        expect(city).toEqual("Boston");
+        var city = 'Boston';
+        expect(city).toEqual('Boston');
     });
 
 
@@ -41,11 +39,11 @@ xdescribe('A suite', function() {
         var bar = {
             a: 15,
             b: 20
-        }
+        };
         var baz = {
             a: 20,
             b: 15
-        }
+        };
         expect(foo).toEqual(bar);
         expect(foo).not.toEqual(baz);
     });

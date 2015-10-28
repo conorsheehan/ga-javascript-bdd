@@ -7,7 +7,7 @@ var requestPersistence = {
 };
 var $ = {
     ajax: function() {}
-}
+};
 
 var chatbot = (function($, chatSystem, requestPersistence) {
 
@@ -73,7 +73,7 @@ var chatbot = (function($, chatSystem, requestPersistence) {
 
         /** Send a success message after creating the office request */
         respondWithCreateRequestSuccess: function(requestItem) {
-            var outgoingMessage = "Thank you for requesting " + requestItem;
+            var outgoingMessage = 'Thank you for requesting ' + requestItem;
             return outgoingMessage;
         }
     };
