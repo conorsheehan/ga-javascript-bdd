@@ -26,7 +26,7 @@ describe('The Road Trip App', function() {
 
 
 
-    xit('initializes with a default fuel economy of 30 mpg', function() {
+    xit('defaults to a fuel economy of 30 mpg', function() {
         var fuelEconomy = 30;
 
         roadTripApp.initialize();
@@ -38,7 +38,7 @@ describe('The Road Trip App', function() {
 
 
 
-    xit('initializes with a default fuel price of $3/gallon', function() {
+    xit('defaults to a fuel price of $3/gallon', function() {
         var fuelPrice = 3;
 
         roadTripApp.initialize();
