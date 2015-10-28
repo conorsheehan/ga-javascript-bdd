@@ -86,6 +86,7 @@ var roadTripApp = (function() {
         //     return numberOfPassengers;
         // },
 
+        // /** Returns the list of hotel prices */
         // getHotelPrices: function() {
         //     return hotelPrices;
         // },
@@ -95,19 +96,19 @@ var roadTripApp = (function() {
         //
 
 
-        // /** Get the total cost of fuel for the trip */
+        // /** Returns the total cost of fuel for the trip */
         // getFuelCost: function() {
         //     return this.getDistance() / this.getFuelEconomy() * this.getFuelPrice();
         // },
 
-        // /** Get the total cost of hotels for the trip */
+        // /** Returns the total cost of hotels for the trip */
         // getHotelCost: function() {
         //     return this.getHotelPrices().reduce(function(prev,current) {
         //         return prev + current;
         //     }, 0);
         // },
 
-        // /** Get the total overall cost for the trip */
+        // /** Returns the total overall cost for the trip */
         // getTotalCost: function() {
         //     var totalCost = this.getHotelCost() + this.getFuelCost();
         //     return totalCost;
